@@ -1,0 +1,33 @@
+/* styles for my aia tables */
+
+table {
+    width:80%;
+    margin:auto;
+}
+
+table.client {
+    border:1px solid black;
+    margin-bottom: 2em;
+}
+
+table.client th {
+    text-align: left;
+    background-color: #659DBD;
+    font-size: 18px;
+}
+
+table.audience th {
+    background-color: #659DBD;
+    font-size: 18px;
+}
+
+
+td, th{
+    border:1px solid black;
+    padding:.5em 1em; /* Top and Bottom -- Left and Right */
+}
+
+.percent30 {
+    width:30%;
+    font-size: 18px;
+}
