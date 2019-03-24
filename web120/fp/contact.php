@@ -3,8 +3,8 @@
      
 <!-- START LEFT COL -->
 <section>
- <h2 class="pageID">Contact David</h2>
- <?php include 'includes/simple.php';?>
+ <h2 class="pageID">Contact Brandon</h2>
+ <?php include 'includes/multiple.php';?>
 	 <p class="clear-recaptcha"></p>
 </section>
 <!-- END LEFT COL -->

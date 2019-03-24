@@ -2,7 +2,6 @@
 <?php include 'includes/header.php';?>
 
 <!-- START LEFT COL -->
-<section class="wholepage">
  <h2 class="pageID">Audience Issues and Approach</h2>
  <table class="client">
      <tr>

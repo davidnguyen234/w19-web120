@@ -1,17 +1,37 @@
-/* My WEB120 Portal Website Styles */
+/* My WEB120 Big Styles */
+*{
+    margin:0;
+    padding:0;
+}
+
+#flexbox-table{
+    margin-left:5%;
+}
+
+section {
+    padding-left:1%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+aside{
+    padding-right:1%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
 
 html {
     background-color:#ccc;
 }
 
-p{
-    margin:1%;
+p {
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .pageID {
     margin-left: 1%;
 }
-
 
 footer {
     text-align: center;
@@ -52,6 +72,8 @@ div.embed-container iframe {
     height: 100%;
 }
 
+
+
 footer {
 	clear:both;
 }
@@ -67,9 +89,8 @@ footer {
 	}
 
     section {
-		width:65%;
-        float:left;
-        margin:1%;
+		width:60%;
+		float:left;
     }
     
     section.wholepage {
@@ -77,17 +98,14 @@ footer {
     }
 	
      aside {	
-		width:34%;
-        float:right;
-    }
-    
+		width:30%;
+		float:right;
+	}
 			
 	
     img.desktop {
       		 float:left;
-               width:50%;
-               margin-left:1%;
-               margin-right:5%;
+       		width:50%;
    	 }
     
     img.tablet, img.phone {
@@ -98,7 +116,15 @@ footer {
     ul.topnav li a.selected {
         		background-color: #ccc;
         		color:#000;
-   	 }
+        }
+
+        .embed-container.agenda-view {
+            display:none;
+        }
+        
+        .embed-container.month-view {
+            display:block;
+        }
 }
 
 
@@ -106,7 +132,7 @@ footer {
 @media all and (min-width:737px) and (max-width:1399px) {
 	
 	section {
-		width:60%;
+		width:55%;
 		float:left;
     }
     
@@ -115,13 +141,12 @@ footer {
     }
 	
 	aside {	
-		width:39%;
+		width:30%;
 		float:right;
 	}
 	
             img.tablet {
-               width:100%;
-               margin:2%;
+       		width:100%;
            }
     
            img.phone, img.desktop {
@@ -133,6 +158,13 @@ footer {
         		background-color: #ccc;
         		color:#000;
           }
+          .embed-container.agenda-view {
+            display:block;
+        }
+        
+        .embed-container.month-view {
+            display:none;
+        }
   }
 
 
@@ -140,12 +172,18 @@ footer {
 @media all and (max-width:736px) {
     
     img.phone {
-               width:100%;
-               margin:1%;
+       		width:100%;
     }
     
     img.tablet, img.desktop {
         		display:none;
     }  
+    .embed-container.agenda-view {
+        display:block;
+    }
+    
+    .embed-container.month-view {
+        display:none;
+    }
 
 }
